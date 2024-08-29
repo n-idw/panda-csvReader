@@ -10,27 +10,12 @@ with io.open(op.join(here, 'README.md'), mode='rt', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='trackml',
-    version='3',
-    description='TrackML utility library',
+    name='panda-csvReader',
+    version='1',
+    description='CSV reader for PANDA STT hit and truth data',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/LAL/trackml-library',
-    author='Moritz Kiehn',
-    author_email='msmk@cern.ch',
-    classifiers=[
-        'Development Status :: 5 - Production/Stable',
-        'Intended Audience :: Science/Research',
-        'Topic :: Scientific/Engineering :: Information Analysis',
-        'Topic :: Scientific/Engineering :: Physics',
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-    ],
+    url='https://github.com/n-idw/panda-csvReader',
     packages=['trackml'],
     install_requires=[
         'numpy',
