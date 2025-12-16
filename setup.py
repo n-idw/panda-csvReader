@@ -18,8 +18,8 @@ setup(
     url='https://github.com/n-idw/panda-csvReader',
     packages=['trackml'],
     install_requires=[
-        'numpy',
-        'pandas>=0.21.0',
+#        'numpy',
+ #       'pandas>=0.21.0',
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
 )
